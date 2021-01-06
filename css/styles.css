@@ -5,11 +5,13 @@ GENERAL THEMES
 body {
   background-color: #0D0D0D;
   color: #E5E5E5;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
   max-width: 1500px;
   width: 95%;
+  padding: 0px 0px 0px 2rem;
 }
 
 /* ================================================================================
@@ -21,7 +23,7 @@ nav {
 }
 
 nav #navigation-container {
-  max-width: 1800px;
+  max-width: 1500px;
   width: 100%;
 }
 
@@ -38,34 +40,55 @@ nav .container {
   font-size: 1rem;
 }
 
-
-.navbar .navbar-nav .nav-link:hover {
-  border-bottom: 1px solid #E5E5E5;
+.navbar-collapse {
+  text-align: right;
 }
-
-.active {
-  border-bottom: 1px solid #E5E5E5;
-}
-
 
 .navbar .navbar-nav .nav-item {
   padding: 0px 100px;
 }
 
+.navbar .navbar-nav .nav-item .active {
+  color: #E05E08;
+}
+
 #nav-gate-icon {
   height: 5rem;
   width: 5rem;
-  margin-left: 2rem;
 }
 
 /* ================================================================================
 MAIN
 ================================================================================ */
 
+#introduction-area {
+  padding-top: 10rem;
+  padding-left: 0;
+}
+
 #heading-container {
+  margin-bottom: 2rem;
+}
+
+#heading-container-border {
+  width: 20%;
   border-bottom: 1px solid #E5E5E5;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 350%;
+  font-weight: 300;
+  color: #E05E08;
+}
+
+.btn {
+  margin-top: 1rem;
+  color: #E5E5E5;
+  border-color: #E5E5E5;
+  transition: .2s;
+}
+
+.btn:hover {
+  color: #E5E5E5;
+  transform: scale(1.05);
 }
