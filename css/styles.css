@@ -2,44 +2,70 @@
 GENERAL THEMES
 ================================================================================ */
 
+body {
+  background-color: #0D0D0D;
+  color: #E5E5E5;
+}
 
-
-
-
+.container {
+  max-width: 1500px;
+  width: 95%;
+}
 
 /* ================================================================================
 NAVIGATION
 ================================================================================ */
+
 nav {
   font-family: 'Roboto', sans-serif;
 }
 
+nav #navigation-container {
+  max-width: 1800px;
+  width: 100%;
+}
+
 nav .container {
   padding: 0px;
+  padding-top: 5px;
 }
 
 .navbar-custom {
-  background-color: #141414;
-  border-bottom: 1px solid #E05E08;
+  background-color: #0D0D0D;
 }
 
-.navbar-expand-md .navbar-nav .nav-link {
-  color: white;
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 1rem;
 }
+
 
 .navbar .navbar-nav .nav-link:hover {
-  color: #E05E08;
+  border-bottom: 1px solid #E5E5E5;
 }
 
-.navbar .navbar-nav .nav-link .active {
-  color: #E05E08;
+.active {
+  border-bottom: 1px solid #E5E5E5;
 }
 
-.navbar .navbar-nav .active .nav-link {
-  color: #E05E08;
+
+.navbar .navbar-nav .nav-item {
+  padding: 0px 100px;
 }
 
 #nav-gate-icon {
-  height: 3rem;
-  width: 3rem;
+  height: 5rem;
+  width: 5rem;
+  margin-left: 2rem;
+}
+
+/* ================================================================================
+MAIN
+================================================================================ */
+
+#heading-container {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+h1 {
+  font-size: 3rem;
 }
