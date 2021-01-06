@@ -1,0 +1,45 @@
+/* ================================================================================
+GENERAL THEMES
+================================================================================ */
+
+
+
+
+
+
+/* ================================================================================
+NAVIGATION
+================================================================================ */
+nav {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav .container {
+  padding: 0px;
+}
+
+.navbar-custom {
+  background-color: #141414;
+  border-bottom: 1px solid #E05E08;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #E05E08;
+}
+
+.navbar .navbar-nav .nav-link .active {
+  color: #E05E08;
+}
+
+.navbar .navbar-nav .active .nav-link {
+  color: #E05E08;
+}
+
+#nav-gate-icon {
+  height: 3rem;
+  width: 3rem;
+}
