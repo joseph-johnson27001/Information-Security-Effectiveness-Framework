@@ -1,7 +1,53 @@
 /* ================================================================================
 MAIN
 ================================================================================ */
+body {
+  color: #E5E5E5
+}
 
-#introduction-container {
-  padding-top: 4rem;
+#text-container a {
+  color: orange;
+  border: 1px solid orange;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#text-container a:hover {
+  text-decoration: none;
+  color: #E05E08;
+  border: 1px solid #E05E08;
+}
+
+.btn {
+  color: white;
+  border: 1px solid white;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.btn:hover {
+  color: orange;
+  border: 1px solid orange;
+}
+
+#button-container .active {
+  color: #E05E08;
+  border: 1px solid #E05E08;
+}
+
+#policy-container-row {
+  margin-top: 2rem;
+}
+
+#text-container {
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding-top: 1rem;
+}
+
+.download-container {
+  margin: 2rem 0;
+  padding-right: 2rem;
+  text-align: right;
 }
