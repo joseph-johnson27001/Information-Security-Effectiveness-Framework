@@ -1,0 +1,39 @@
+/* ================================================================================
+MAIN
+================================================================================ */
+
+#introduction-area {
+  margin-top: 5vh;
+}
+
+@media (min-width: 500px) {
+  #introduction-area {
+    margin-top: 28vh;
+  }
+}
+
+@media (min-width: 768px) {
+  #introduction-area {
+    margin-top: 30vh;
+  }
+}
+
+@media (min-width: 2000px) {
+  #introduction-area {
+    margin-top: 45vh;
+  }
+}
+
+.btn {
+  margin-top: 1rem;
+  color: #E5E5E5;
+  border-color: #E5E5E5;
+  transition: .4s;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.btn:hover {
+  color: #E5E5E5;
+  transform: scale(1.05);
+}
