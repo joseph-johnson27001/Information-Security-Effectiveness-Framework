@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 h1 {
@@ -28,7 +28,6 @@ h1 {
 .container {
   max-width: 1500px;
   width: 90%;
-  padding: 0px 0px 0px 2rem;
 }
 
 /* ================================================================================
@@ -45,9 +44,9 @@ nav {
   }
 }
 
-nav #navigation-container {
+nav .navigation-container {
   max-width: 1500px;
-  width: 100%;
+  width: 90%;
   padding: 0px;
 }
 
@@ -78,7 +77,7 @@ nav #navigation-container {
 #nav-gate-icon {
   height: 5rem;
   width: 5rem;
-  margin-left: 1rem;
+  margin-left: -1rem;
 }
 
 /* ===============================================================================
