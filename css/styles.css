@@ -30,12 +30,18 @@ h1 {
   width: 90%;
 }
 
+#introduction-container {
+  padding-top: 4rem;
+}
+
+
 /* ================================================================================
 NAVIGATION
 ================================================================================ */
 
 nav {
   font-family: 'Roboto', sans-serif;
+  margin-left: -1rem;
 }
 
 @media (min-width: 768px ){
@@ -77,7 +83,7 @@ nav .navigation-container {
 #nav-gate-icon {
   height: 5rem;
   width: 5rem;
-  margin-left: -1rem;
+
 }
 
 /* ===============================================================================
