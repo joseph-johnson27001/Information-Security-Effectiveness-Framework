@@ -1,6 +1,7 @@
 /* ================================================================================
 MAIN
 ================================================================================ */
+
 body {
   color: #E5E5E5
 }
@@ -31,8 +32,8 @@ body {
 }
 
 #button-container .active {
-  color: #E05E08;
-  border: 1px solid #E05E08;
+  color: orange;
+  border: 1px solid orange;
 }
 
 #policy-container-row {
@@ -50,4 +51,12 @@ body {
   margin: 2rem 0;
   padding-right: 2rem;
   text-align: right;
+}
+
+/* ================================================================================
+POLCIY AREA
+================================================================================ */
+
+#access-control-policy-area {
+  display: none;
 }
