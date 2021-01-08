@@ -51,6 +51,7 @@ LEFT VERTICAL POLICY LIST
 ================================================================================ */
 
 #button-container {
+  height: 400px;
   max-height: 400px;
   overflow-y: scroll;
 }
