@@ -7,6 +7,10 @@ const accessControlButton = document.getElementById("access-control-button")
 const acceptableUsePolicyArea = document.getElementById("acceptable-use-policy-area")
 const accessControlPolicyArea = document.getElementById("access-control-policy-area")
 
+
+
+
+
 // ================================================================================
 // TOP HORIZONTAL POLICY LIST VARIABLES
 // ================================================================================
@@ -14,41 +18,85 @@ const accessControlPolicyArea = document.getElementById("access-control-policy-a
 // BUTTONS
 const governanceRiskAndComplianceButton = document.getElementById("governance-risk-and-compliance-button")
 const informationAssetManagementButton = document.getElementById("information-asset-management-button")
+const informationTechnologyButton = document.getElementById("information-technology-button")
+const peopleButton = document.getElementById("people-button")
+const physicalAndEnvironmentalButton = document.getElementById("physical-and-environmental-button")
+const resilienceButton = document.getElementById("resilience-button")
 
 // CONTAINERS
-
 const governanceRiskAndComplianceContainer = document.getElementById("governance-risk-and-compliance-button-container")
 const informationAssetManagementContainer = document.getElementById("information-asset-management-button-container")
-
+const informationTechnologyContainer = document.getElementById("information-technology-button-container")
+const peopleContainer = document.getElementById("people-button-container")
+const physicalAndEnvironmentalContainer = document.getElementById("physical-and-environmental-button-container")
+const resilienceContainer = document.getElementById("resilience-button-container")
 // ================================================================================
 // TOP HORIZONTAL POLICY LIST EVENT LISTENERS
 // ================================================================================
 
 governanceRiskAndComplianceButton.addEventListener("click", () => {
-  informationAssetManagementContainer.style.display = "none"
+  removeActive()
+  governanceRiskAndComplianceButton.classList.add("active")
+  hideButtons()
   governanceRiskAndComplianceContainer.style.display = "block"
 })
 
 informationAssetManagementButton.addEventListener("click", () => {
-  governanceRiskAndComplianceContainer.style.display = "none"
+  removeActive()
+  informationAssetManagementButton.classList.add("active")
+  hideButtons()
   informationAssetManagementContainer.style.display = "block"
 })
 
-
-// ================================================================================
-// EVENT LISTENERS
-// ================================================================================
-
-acceptableUseButton.addEventListener("click", () => {
-  acceptableUseButton.classList.add("active")
-  accessControlButton.classList.remove("active")
-  acceptableUsePolicyArea.style.display = "block"
-  accessControlPolicyArea.style.display = "none"
+informationTechnologyButton.addEventListener("click", () => {
+  removeActive()
+  informationTechnologyButton.classList.add("active")
+  hideButtons()
+  informationTechnologyContainer.style.display = "block"
 })
 
-accessControlButton.addEventListener("click", () => {
-  acceptableUseButton.classList.remove("active")
-  accessControlButton.classList.add("active")
-  acceptableUsePolicyArea.style.display = "none"
-  accessControlPolicyArea.style.display = "block"
+peopleButton.addEventListener("click", () => {
+  removeActive()
+  peopleButton.classList.add("active")
+  hideButtons()
+  peopleContainer.style.display = "block"
 })
+
+physicalAndEnvironmentalButton.addEventListener("click", () => {
+  removeActive()
+  physicalAndEnvironmentalButton.classList.add("active")
+  hideButtons()
+  physicalAndEnvironmentalContainer.style.display = "block"
+})
+
+resilienceButton.addEventListener("click", () => {
+  removeActive()
+  resilienceButton.classList.add("active")
+  hideButtons()
+  resilienceContainer.style.display = "block"
+})
+
+
+// ================================================================================
+// FUNCTIONS
+// ================================================================================
+
+// FUNCTION TO HIDE ALL BUTTON CONTAINER ELEMENTS ON LEFT HAND SIDE
+
+function hideButtons() {
+  governanceRiskAndComplianceContainer.style.display = "none"
+  informationAssetManagementContainer.style.display = "none"
+  informationTechnologyContainer.style.display = "none"
+  peopleContainer.style.display = "none"
+  physicalAndEnvironmentalContainer.style.display = "none"
+  resilienceContainer.style.display = "none"
+}
+
+function removeActive() {
+    governanceRiskAndComplianceButton.classList.remove("active")
+    informationAssetManagementButton.classList.remove("active")
+    informationTechnologyButton.classList.remove("active")
+    peopleButton.classList.remove("active")
+    physicalAndEnvironmentalButton.classList.remove("active")
+    resilienceButton.classList.remove("active")
+}
