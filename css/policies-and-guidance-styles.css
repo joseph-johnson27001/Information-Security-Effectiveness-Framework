@@ -6,6 +6,47 @@ body {
   color: #E5E5E5
 }
 
+.btn {
+  color: #E5E5E5;
+  border: 1px solid #B5B5B5;
+  background-color: #171717;
+}
+
+.btn:hover {
+  color: orange;
+  border: 1px solid orange;
+}
+
+#policy-areas-container {
+  margin: auto;
+}
+
+#policy-areas-container .btn {
+  margin: 0px 3px;
+}
+
+#policy-container-column .btn {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.row .active {
+  color: orange;
+  border: 1px solid orange;
+}
+
+#policy-container-column {
+  margin-top: 2rem;
+}
+
+#text-container {
+  border: 1px solid #B5B5B5;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding-top: 1rem;
+  background-color: #171717;
+}
+
 #text-container a {
   color: orange;
   border: 1px solid orange;
@@ -17,34 +58,6 @@ body {
   text-decoration: none;
   color: #E05E08;
   border: 1px solid #E05E08;
-}
-
-.btn {
-  color: white;
-  border: 1px solid white;
-  margin-bottom: 5px;
-  width: 100%;
-}
-
-.btn:hover {
-  color: orange;
-  border: 1px solid orange;
-}
-
-#button-container .active {
-  color: orange;
-  border: 1px solid orange;
-}
-
-#policy-container-row {
-  margin-top: 2rem;
-}
-
-#text-container {
-  border: 1px solid #E5E5E5;
-  border-radius: 5px;
-  margin-bottom: 5px;
-  padding-top: 1rem;
 }
 
 .download-container {

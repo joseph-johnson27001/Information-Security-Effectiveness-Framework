@@ -2,10 +2,10 @@
 // VARIABLES
 // ================================================================================
 
-acceptableUseButton = document.getElementById("acceptable-use-button")
-accessControlButton = document.getElementById("access-control-button")
-acceptableUsePolicyArea = document.getElementById("acceptable-use-policy-area")
-accessControlPolicyArea = document.getElementById("access-control-policy-area")
+const acceptableUseButton = document.getElementById("acceptable-use-button")
+const accessControlButton = document.getElementById("access-control-button")
+const acceptableUsePolicyArea = document.getElementById("acceptable-use-policy-area")
+const accessControlPolicyArea = document.getElementById("access-control-policy-area")
 
 // ================================================================================
 // EVENT LISTENERS
