@@ -30,6 +30,12 @@ const resilienceButton = document.getElementById("resilience-button")
 // ================================================================================
 // LEFT CONTAINER VARIABLES
 // ================================================================================
+
+//Overall Left Button CONTAINER
+const buttonContainer = document.getElementById("button-container")
+const buttonContainerArray = buttonContainer.children
+
+//Individual policy area button containers
 const governanceRiskAndComplianceContainer = document.getElementById("governance-risk-and-compliance-button-container")
 const informationAssetManagementContainer = document.getElementById("information-asset-management-button-container")
 const informationTechnologyContainer = document.getElementById("information-technology-button-container")
@@ -89,13 +95,11 @@ resilienceButton.addEventListener("click", () => {
 
 // FUNCTION TO HIDE ALL BUTTON CONTAINER ELEMENTS ON LEFT HAND SIDE
 
+
 function hideButtons() {
-  governanceRiskAndComplianceContainer.style.display = "none"
-  informationAssetManagementContainer.style.display = "none"
-  informationTechnologyContainer.style.display = "none"
-  peopleContainer.style.display = "none"
-  physicalAndEnvironmentalContainer.style.display = "none"
-  resilienceContainer.style.display = "none"
+  for (let i = 0; i < buttonContainerArray.length; i++ ){
+    buttonContainerArray[i].style.display = "none"
+  }
 }
 
 
