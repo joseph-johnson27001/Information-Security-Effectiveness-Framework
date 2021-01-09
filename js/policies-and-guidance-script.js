@@ -11,7 +11,15 @@ const accessControlPolicyArea = document.getElementById("access-control-policy-a
 // TOP HORIZONTAL POLICY LIST VARIABLES
 // ================================================================================
 
+//OVERALL CONTAINER
+const policyAreasContainer = document.getElementById("policy-areas-container")
+
 // BUTTONS
+
+//All Buttons Array
+const policyAreasContainerButtons = policyAreasContainer.children
+
+//Individual Buttons
 const governanceRiskAndComplianceButton = document.getElementById("governance-risk-and-compliance-button")
 const informationAssetManagementButton = document.getElementById("information-asset-management-button")
 const informationTechnologyButton = document.getElementById("information-technology-button")
@@ -19,13 +27,16 @@ const peopleButton = document.getElementById("people-button")
 const physicalAndEnvironmentalButton = document.getElementById("physical-and-environmental-button")
 const resilienceButton = document.getElementById("resilience-button")
 
-// CONTAINERS
+// ================================================================================
+// LEFT CONTAINER VARIABLES
+// ================================================================================
 const governanceRiskAndComplianceContainer = document.getElementById("governance-risk-and-compliance-button-container")
 const informationAssetManagementContainer = document.getElementById("information-asset-management-button-container")
 const informationTechnologyContainer = document.getElementById("information-technology-button-container")
 const peopleContainer = document.getElementById("people-button-container")
 const physicalAndEnvironmentalContainer = document.getElementById("physical-and-environmental-button-container")
 const resilienceContainer = document.getElementById("resilience-button-container")
+
 // ================================================================================
 // TOP HORIZONTAL POLICY LIST EVENT LISTENERS
 // ================================================================================
@@ -87,11 +98,10 @@ function hideButtons() {
   resilienceContainer.style.display = "none"
 }
 
+
+
 function removeActive() {
-    governanceRiskAndComplianceButton.classList.remove("active")
-    informationAssetManagementButton.classList.remove("active")
-    informationTechnologyButton.classList.remove("active")
-    peopleButton.classList.remove("active")
-    physicalAndEnvironmentalButton.classList.remove("active")
-    resilienceButton.classList.remove("active")
+  for (let i = 0; i < policyAreasContainerButtons.length; i++) {
+    policyAreasContainerButtons[i].classList.remove("active")
+  }
 }

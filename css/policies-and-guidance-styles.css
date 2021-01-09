@@ -55,7 +55,7 @@ LEFT VERTICAL POLICY LIST
   max-height: 400px;
   overflow-y: scroll;
   -ms-overflow-style: none;
-  scrollbar-width: none; 
+  scrollbar-width: none;
 }
 
 #button-container::-webkit-scrollbar {
