@@ -48,44 +48,38 @@ const resilienceContainer = document.getElementById("resilience-button-container
 // ================================================================================
 
 governanceRiskAndComplianceButton.addEventListener("click", () => {
-  removeActive()
+  hideButtonsAndRemoveActive()
   governanceRiskAndComplianceButton.classList.add("active")
-  hideButtons()
   governanceRiskAndComplianceContainer.style.display = "block"
 })
 
 informationAssetManagementButton.addEventListener("click", () => {
-  removeActive()
+  hideButtonsAndRemoveActive()
   informationAssetManagementButton.classList.add("active")
-  hideButtons()
   informationAssetManagementContainer.style.display = "block"
 })
 
 informationTechnologyButton.addEventListener("click", () => {
-  removeActive()
+  hideButtonsAndRemoveActive()
   informationTechnologyButton.classList.add("active")
-  hideButtons()
   informationTechnologyContainer.style.display = "block"
 })
 
 peopleButton.addEventListener("click", () => {
-  removeActive()
+  hideButtonsAndRemoveActive()
   peopleButton.classList.add("active")
-  hideButtons()
   peopleContainer.style.display = "block"
 })
 
 physicalAndEnvironmentalButton.addEventListener("click", () => {
-  removeActive()
+  hideButtonsAndRemoveActive()
   physicalAndEnvironmentalButton.classList.add("active")
-  hideButtons()
   physicalAndEnvironmentalContainer.style.display = "block"
 })
 
 resilienceButton.addEventListener("click", () => {
-  removeActive()
+  hideButtonsAndRemoveActive()
   resilienceButton.classList.add("active")
-  hideButtons()
   resilienceContainer.style.display = "block"
 })
 
@@ -94,17 +88,12 @@ resilienceButton.addEventListener("click", () => {
 // ================================================================================
 
 // FUNCTION TO HIDE ALL BUTTON CONTAINER ELEMENTS ON LEFT HAND SIDE
+// AND TO REMOVE ACTIVE CLASS ON TOP BUTTONS
 
-
-function hideButtons() {
+function hideButtonsAndRemoveActive() {
   for (let i = 0; i < buttonContainerArray.length; i++ ){
     buttonContainerArray[i].style.display = "none"
   }
-}
-
-
-
-function removeActive() {
   for (let i = 0; i < policyAreasContainerButtons.length; i++) {
     policyAreasContainerButtons[i].classList.remove("active")
   }
