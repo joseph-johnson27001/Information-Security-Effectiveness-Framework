@@ -7,10 +7,6 @@ const accessControlButton = document.getElementById("access-control-button")
 const acceptableUsePolicyArea = document.getElementById("acceptable-use-policy-area")
 const accessControlPolicyArea = document.getElementById("access-control-policy-area")
 
-
-
-
-
 // ================================================================================
 // TOP HORIZONTAL POLICY LIST VARIABLES
 // ================================================================================
@@ -75,7 +71,6 @@ resilienceButton.addEventListener("click", () => {
   hideButtons()
   resilienceContainer.style.display = "block"
 })
-
 
 // ================================================================================
 // FUNCTIONS
