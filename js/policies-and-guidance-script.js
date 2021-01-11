@@ -81,14 +81,20 @@ resilienceButton.addEventListener("click", (e) => {
 // LEFT VERTICAL BUTTON EVENT LISTENERS
 // ================================================================================
 
-// buttonContainer.addEventListener("click", (e) => {
-//   for (let i = 0; i < buttonContainerArray.length; i++ ) {
-//     for (let j = 0; j < buttonContainerArray[i]; j++) {
-//       buttonContainerArray[i][j].classList.remove("active")
-//     }
-//   }
-// })
-//
+buttonContainer.addEventListener("click", (e) => {
+  leftButton()
+  e.target.classList.add("active")
+})
+
+function leftButton() {
+
+  for (let i = 0; i < buttonContainerArray.length; i++) {
+    for (let j = 0; j < buttonContainerArray[i].children.length; j++){
+        buttonContainerArray[i].children[j].classList.remove("active")
+    }}
+  }
+
+
 
 
 // ================================================================================
