@@ -82,29 +82,24 @@ resilienceButton.addEventListener("click", (e) => {
 // ================================================================================
 
 buttonContainer.addEventListener("click", (e) => {
-  leftButton()
-  e.target.classList.add("active")
-})
-
-function leftButton() {
-
-  for (let i = 0; i < buttonContainerArray.length; i++) {
-    for (let j = 0; j < buttonContainerArray[i].children.length; j++){
-        buttonContainerArray[i].children[j].classList.remove("active")
-    }}
+  if(e.target.classList.contains("btn")) {
+    leftButton()
+    e.target.classList.add("active")
   }
-
-
-
+})
 
 // ================================================================================
 // FUNCTIONS
 // ================================================================================
 
+// FUNCTION FOR ADDING OR REMOVE ACTIVE CLASS ON LEFT VERTICAL BUTTONS
 
-
-
-
+function leftButton() {
+  for (let i = 0; i < buttonContainerArray.length; i++) {
+    for (let j = 0; j < buttonContainerArray[i].children.length; j++){
+        buttonContainerArray[i].children[j].classList.remove("active")
+    }}
+  }
 
 // FUNCTION FOR HORIZONTAL POLICY CATEOGRY AREA BUTTON CLICK
 
