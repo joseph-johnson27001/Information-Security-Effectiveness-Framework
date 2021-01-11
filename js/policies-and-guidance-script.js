@@ -48,42 +48,61 @@ const resilienceContainer = document.getElementById("resilience-button-container
 // ================================================================================
 
 governanceRiskAndComplianceButton.addEventListener("click", (e) => {
-  policyAreasClick(e)
+  categoryAreaClick(e)
   governanceRiskAndComplianceContainer.style.display = "block"
 })
 
 informationAssetManagementButton.addEventListener("click", (e) => {
-  policyAreasClick(e)
+  categoryAreaClick(e)
   informationAssetManagementContainer.style.display = "block"
 })
 
 informationTechnologyButton.addEventListener("click", (e) => {
-  policyAreasClick(e)
+  categoryAreaClick(e)
   informationTechnologyContainer.style.display = "block"
 })
 
 peopleButton.addEventListener("click", (e) => {
-  policyAreasClick(e)
+  categoryAreaClick(e)
   peopleContainer.style.display = "block"
 })
 
 physicalAndEnvironmentalButton.addEventListener("click", (e) => {
-  policyAreasClick(e)
+  categoryAreaClick(e)
   physicalAndEnvironmentalContainer.style.display = "block"
 })
 
 resilienceButton.addEventListener("click", (e) => {
-  policyAreasClick(e)
+  categoryAreaClick(e)
   resilienceContainer.style.display = "block"
 })
+
+// ================================================================================
+// LEFT VERTICAL BUTTON EVENT LISTENERS
+// ================================================================================
+
+// buttonContainer.addEventListener("click", (e) => {
+//   for (let i = 0; i < buttonContainerArray.length; i++ ) {
+//     for (let j = 0; j < buttonContainerArray[i]; j++) {
+//       buttonContainerArray[i][j].classList.remove("active")
+//     }
+//   }
+// })
+//
+
 
 // ================================================================================
 // FUNCTIONS
 // ================================================================================
 
+
+
+
+
+
 // FUNCTION FOR HORIZONTAL POLICY CATEOGRY AREA BUTTON CLICK
 
-function policyAreasClick(e) {
+function categoryAreaClick(e) {
   for (let i = 0; i < buttonContainerArray.length; i++ ){
     buttonContainerArray[i].style.display = "none"
   }
