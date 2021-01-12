@@ -108,6 +108,10 @@ TEXT CONTAINER (RIGHT CONTAINER)
 POLCIY AREA
 ================================================================================ */
 
-#information-risk-management-policy-area {
+.policy-text {
   display: none;
+}
+
+#information-ownership-policy-area {
+  display: block;
 }

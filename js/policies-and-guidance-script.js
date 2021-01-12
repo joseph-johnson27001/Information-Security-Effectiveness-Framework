@@ -92,7 +92,7 @@ buttonContainer.addEventListener("click", (e) => {
 // FUNCTIONS
 // ================================================================================
 
-// FUNCTION FOR ADDING OR REMOVE ACTIVE CLASS ON LEFT VERTICAL BUTTONS
+// FUNCTION FOR ADDING OR REMOVING ACTIVE CLASS ON LEFT VERTICAL BUTTONS
 
 function leftButton() {
   for (let i = 0; i < buttonContainerArray.length; i++) {
@@ -101,7 +101,7 @@ function leftButton() {
     }}
   }
 
-// FUNCTION FOR HORIZONTAL POLICY CATEOGRY AREA BUTTON CLICK
+// FUNCTION FOR TOP HORIZONTAL CATEOGRY AREA BUTTON CLICK
 
 function categoryAreaClick(e) {
   for (let i = 0; i < buttonContainerArray.length; i++ ){
