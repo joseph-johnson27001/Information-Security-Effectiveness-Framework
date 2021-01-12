@@ -43,6 +43,17 @@ const peopleContainer = document.getElementById("people-button-container")
 const physicalAndEnvironmentalContainer = document.getElementById("physical-and-environmental-button-container")
 const resilienceContainer = document.getElementById("resilience-button-container")
 
+const totalPolicyButtons = document.getElementsByClassName("policy-button")
+
+const totalPolicyText = document.getElementsByClassName("policy-text")
+
+
+
+
+
+
+
+
 // ================================================================================
 // TOP HORIZONTAL POLICY LIST EVENT LISTENERS
 // ================================================================================
