@@ -34,6 +34,7 @@ const resilienceButton = document.getElementById("resilience-button")
 //Overall Left Button CONTAINER
 const buttonContainer = document.getElementById("button-container")
 const buttonContainerArray = buttonContainer.children
+const totalPolicyButtons = document.getElementsByClassName("policy-button")
 
 //Individual policy area button containers
 const governanceRiskAndComplianceContainer = document.getElementById("governance-risk-and-compliance-button-container")
@@ -43,38 +44,11 @@ const peopleContainer = document.getElementById("people-button-container")
 const physicalAndEnvironmentalContainer = document.getElementById("physical-and-environmental-button-container")
 const resilienceContainer = document.getElementById("resilience-button-container")
 
-
-
-
-
-
-
-
-
-
-
-const totalPolicyButtons = document.getElementsByClassName("policy-button")
+// ================================================================================
+// RIGHT TEXT CONTAINER VARIABLES
+// ================================================================================
 
 const totalPolicyText = document.getElementsByClassName("policy-text")
-
-
-function policyButtonClick(e) {
-
-for (let i = 0; i < totalPolicyButtons.length; i++) {
-    totalPolicyText[i].style.display = "none"
-  }
-  for (let i = 0; i < totalPolicyButtons.length; i++)
-    if(totalPolicyButtons[i].classList.contains("active")) {
-      totalPolicyText[i].style.display = "block"
-    }
-  }
-
-
-
-
-
-
-
 
 // ================================================================================
 // TOP HORIZONTAL POLICY LIST EVENT LISTENERS
@@ -146,3 +120,14 @@ function categoryAreaClick(e) {
   }
     e.target.classList.add("active")
 }
+
+// FUNCTION FOR CLICKING ON INDIVIDUAL POLICIES ON LEFT SIDE OF SCREEN
+function policyButtonClick(e) {
+  for (let i = 0; i < totalPolicyButtons.length; i++) {
+      totalPolicyText[i].style.display = "none"
+    }
+  for (let i = 0; i < totalPolicyButtons.length; i++)
+    if(totalPolicyButtons[i].classList.contains("active")) {
+      totalPolicyText[i].style.display = "block"
+    }
+  }
