@@ -43,9 +43,31 @@ const peopleContainer = document.getElementById("people-button-container")
 const physicalAndEnvironmentalContainer = document.getElementById("physical-and-environmental-button-container")
 const resilienceContainer = document.getElementById("resilience-button-container")
 
+
+
+
+
+
+
+
+
+
+
 const totalPolicyButtons = document.getElementsByClassName("policy-button")
 
 const totalPolicyText = document.getElementsByClassName("policy-text")
+
+
+function policyButtonClick(e) {
+
+for (let i = 0; i < totalPolicyButtons.length; i++) {
+    totalPolicyText[i].style.display = "none"
+  }
+  for (let i = 0; i < totalPolicyButtons.length; i++)
+    if(totalPolicyButtons[i].classList.contains("active")) {
+      totalPolicyText[i].style.display = "block"
+    }
+  }
 
 
 
@@ -97,6 +119,7 @@ buttonContainer.addEventListener("click", (e) => {
     leftButton()
     e.target.classList.add("active")
   }
+  policyButtonClick(e)
 })
 
 // ================================================================================
