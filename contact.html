@@ -66,16 +66,34 @@
 
     <main class="container" class="introduction-container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col">
           <div class="heading-container">
             <h1>Contact</h1>
-            <div class="heading-container-border"></div>
-         </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        </div>
-        <div class="col">
 
-        </div>
+
+
+
+        <form
+            action=""
+            method="POST">
+            <div class="container" id="contact-form-row">
+              <div>
+                <div class="col-sm-12 contact-input">
+                  <input type="text" class="form-control" placeholder="Name:" name="name" required>
+                </div>
+                <div class="col-sm-12 contact-input">
+                  <input type="email" class="form-control" placeholder="Email:" name="_replyto" required>
+                </div>
+                <div class="col-sm-12 contact-input">
+                  <textarea type="text" class="form-control" placeholder="Your Message:" name="message" id="contact-message-input" required></textarea>
+                </div>
+                  <button type="submit" class="btn btn-primary ml-auto d-flex" target="_blank">Send</button>
+            </div>
+            <a id="contact" class="anchor"></a>
+          </div>
+        </form>
+      </div>
+      </div>
       </div>
     </main>
 
