@@ -11,12 +11,16 @@ input {
 
 #form-container {
   max-width: 1500px;
-  width: 95%
+  width: 100%;
+  margin: 0px;
+}
+
+#form-inner {
+  padding: 0;
 }
 
 #contact-form-row {
   padding: 0px;
-  border-radius: 5px;
   color: white;
 }
 
@@ -28,7 +32,6 @@ input {
 }
 
 /* Change Autocomplete styles in Chrome*/
-
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -55,7 +58,6 @@ select:-webkit-autofill:focus {
 }
 
 .form-control {
-  border-radius: 5px;
   background-color: #171717;
   border-color: grey;
 }
@@ -69,16 +71,16 @@ select:-webkit-autofill:focus {
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #E05E08;
+  color: #B8B8B8;
   opacity: 1; /* Firefox */
 }
 
 .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #E05E08;
+  color: #B8B8B8;
 }
 
 .form-control::-ms-input-placeholder { /* Microsoft Edge */
-  color: #E05E08;
+  color: #B8B8B8;
 }
 
 .btn-custom {
