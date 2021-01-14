@@ -11,6 +11,7 @@ body {
   border: 1px solid grey;
   background-color: #171717;
   height: 6rem;
+  font-size: 90%;
 }
 
 .btn:hover {
@@ -43,11 +44,11 @@ HORIZONTAL POLICY LIST
 }
 
 #policy-areas-container .btn {
-  margin: 5px 0px 5px 10px;
+  margin: 2px 0px 2px 9px;s
 }
 
+
 #policy-container-column .btn {
-  margin-bottom: 5px;
   width: 100%;
 }
 
@@ -60,7 +61,7 @@ LEFT VERTICAL POLICY LIST
   max-height: 400px;
   overflow-y: scroll;
   -ms-overflow-style: none;
-  scrollbar-width: none;
+  scrollbar-width: none;-
 }
 
 #button-container::-webkit-scrollbar {
@@ -69,10 +70,20 @@ LEFT VERTICAL POLICY LIST
 
 #policy-container-column {
   margin-top: 2rem;
+  margin-left: -5px;
+  margin-right: -4px;
+}
+
+@media(max-width: 768px) {
+  #policy-container-column {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 #policy-container-column .btn {
-  margin: 2px 0px;
+  margin: 0px 0px 4px 0px;
+
 }
 
 
