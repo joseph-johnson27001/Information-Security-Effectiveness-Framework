@@ -71,8 +71,9 @@ LEFT VERTICAL POLICY LIST
 
 @media(max-width: 767px ) {
   #button-container {
-    padding: 0;
-
+    padding: 2px;
+    margin: 0px 0px 40px 0px;
+    border: 1px solid grey;
   }
 }
 
