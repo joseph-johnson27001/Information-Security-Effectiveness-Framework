@@ -80,8 +80,11 @@ nav .navigation-container {
  @media (min-width: 768px ) {
 
    .navbar .navbar-nav .nav-item {
-     padding: 0px 50px;
+     padding: 0px 20px;
    }
+     .dropdown-item {
+       margin-left: -20px;
+     }
  }
 
 .navbar .navbar-nav .nav-item .active {
