@@ -40,8 +40,6 @@ h3 {
 }
 
 
-
-
 /* ================================================================================
 NAVIGATION
 ================================================================================ */
@@ -55,10 +53,7 @@ nav {
 nav .navigation-container {
   max-width: 1500px;
   width: 90%;
-  padding: 0px;
 }
-
-
 
 .navbar-custom {
   background-color: #0D0D0D;
@@ -73,15 +68,12 @@ nav .navigation-container {
   margin-left: auto;
 }
 
-
  @media (min-width: 576px ) {
 
    .navbar .navbar-nav .nav-item {
      padding: 0px 50px;
    }
-
  }
-
 
 .navbar .navbar-nav .nav-item .active {
   color: #E05E08;
