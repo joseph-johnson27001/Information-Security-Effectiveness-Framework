@@ -70,14 +70,14 @@ nav .navigation-container {
 }
 
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
 
   .dropdown-item {
-    margin-left: -30px;
+    margin-left: -40px;
   }
 }
 
- @media (min-width: 576px ) {
+ @media (min-width: 768px ) {
 
    .navbar .navbar-nav .nav-item {
      padding: 0px 50px;
