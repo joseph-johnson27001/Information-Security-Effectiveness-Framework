@@ -46,53 +46,6 @@ h3 {
 NAVIGATION
 ================================================================================ */
 
-/* nav {
-  font-family: 'Roboto', sans-serif;
-  margin-left: -1rem;
-}
-
-@media (min-width: 768px ){
-  nav {
-    position: fixed;
-  }
-}
-
-nav .navigation-container {
-  max-width: 1500px;
-  width: 90%;
-  padding: 0px;
-}
-
-.navbar-nav {
-  margin-right: -5rem;
-}
-
-.navbar-custom {
-  background-color: #0D0D0D;
-}
-
-.navbar-nav .nav-link {
-  font-size: 1rem;
-}
-
-.navbar-collapse {
-  text-align: right;
-}
-
-.navbar .navbar-nav .nav-item {
-  padding: 0px 100px;
-}
-
-.navbar .navbar-nav .nav-item .active {
-  color: #E05E08;
-}
-
-#nav-gate-icon {
-  height: 5rem;
-  width: 5rem;
-} */
-
-
 
 nav {
   font-family: 'Roboto Condensed', sans-serif;
@@ -143,6 +96,7 @@ nav .navigation-container {
 .dropdown-menu {
   background-color: inherit;
   color: white;
+  padding: 0px 25px;
 }
 
 .dropdown-menu a {
