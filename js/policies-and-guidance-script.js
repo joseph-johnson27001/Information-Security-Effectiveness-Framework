@@ -50,38 +50,18 @@ const resilienceContainer = document.getElementById("resilience-button-container
 
 const totalPolicyText = document.getElementsByClassName("policy-text")
 
+
+
+
+
+
 // ================================================================================
 // TOP HORIZONTAL POLICY LIST EVENT LISTENERS
 // ================================================================================
 
-governanceRiskAndComplianceButton.addEventListener("click", (e) => {
+policyAreasContainer.addEventListener("click", (e) => {
   categoryAreaClick(e)
-  governanceRiskAndComplianceContainer.style.display = "block"
-})
-
-informationAssetManagementButton.addEventListener("click", (e) => {
-  categoryAreaClick(e)
-  informationAssetManagementContainer.style.display = "block"
-})
-
-informationTechnologyButton.addEventListener("click", (e) => {
-  categoryAreaClick(e)
-  informationTechnologyContainer.style.display = "block"
-})
-
-peopleButton.addEventListener("click", (e) => {
-  categoryAreaClick(e)
-  peopleContainer.style.display = "block"
-})
-
-physicalAndEnvironmentalButton.addEventListener("click", (e) => {
-  categoryAreaClick(e)
-  physicalAndEnvironmentalContainer.style.display = "block"
-})
-
-resilienceButton.addEventListener("click", (e) => {
-  categoryAreaClick(e)
-  resilienceContainer.style.display = "block"
+  topButtonClick(e)
 })
 
 // ================================================================================
@@ -111,14 +91,23 @@ function leftButton() {
 
 // FUNCTION FOR TOP HORIZONTAL CATEOGRY AREA BUTTON CLICK
 
-function categoryAreaClick(e) {
-  for (let i = 0; i < buttonContainerArray.length; i++ ){
+function topButtonClick(e) {
+    e.target.classList.add("active")
+  for (let i = 0; i < policyAreasContainerButtons.length; i++) {
     buttonContainerArray[i].style.display = "none"
+
   }
+  for (let j = 0; j < policyAreasContainerButtons.length; j++) {
+    if(policyAreasContainerButtons[j].classList.contains("active")) {
+      buttonContainerArray[j].style.display = "block"
+    }
+  }
+}
+
+function categoryAreaClick(e) {
   for (let i = 0; i < policyAreasContainerButtons.length; i++) {
     policyAreasContainerButtons[i].classList.remove("active")
   }
-    e.target.classList.add("active")
 }
 
 // FUNCTION FOR CLICKING ON INDIVIDUAL POLICIES ON LEFT SIDE OF SCREEN

@@ -47,16 +47,11 @@ HORIZONTAL POLICY LIST
   margin: 0px 5px 0px 0px;
 }
 
-
-
-
 @media(max-width: 767px ) {
   #policy-areas-container .btn  {
     margin: 3px 0px;
   }
 }
-
-
 
 /* ================================================================================
 LEFT VERTICAL POLICY LIST
@@ -67,7 +62,7 @@ LEFT VERTICAL POLICY LIST
   max-height: 400px;
   overflow-y: scroll;
   -ms-overflow-style: none;
-  scrollbar-width: none;-
+  scrollbar-width: none;
 }
 
 @media(max-width: 767px ) {
@@ -79,7 +74,7 @@ LEFT VERTICAL POLICY LIST
 }
 
 #button-container::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 #policy-container-column {
