@@ -60,7 +60,6 @@ const totalPolicyText = document.getElementsByClassName("policy-text")
 // ================================================================================
 
 policyAreasContainer.addEventListener("click", (e) => {
-  categoryAreaClick(e)
   topButtonClick(e)
 })
 
@@ -92,21 +91,15 @@ function leftButton() {
 // FUNCTION FOR TOP HORIZONTAL CATEOGRY AREA BUTTON CLICK
 
 function topButtonClick(e) {
-    e.target.classList.add("active")
   for (let i = 0; i < policyAreasContainerButtons.length; i++) {
     buttonContainerArray[i].style.display = "none"
-
   }
   for (let j = 0; j < policyAreasContainerButtons.length; j++) {
+        policyAreasContainerButtons[j].classList.remove("active")
+        e.target.classList.add("active")
     if(policyAreasContainerButtons[j].classList.contains("active")) {
       buttonContainerArray[j].style.display = "block"
     }
-  }
-}
-
-function categoryAreaClick(e) {
-  for (let i = 0; i < policyAreasContainerButtons.length; i++) {
-    policyAreasContainerButtons[i].classList.remove("active")
   }
 }
 
