@@ -2,11 +2,6 @@
 // VARIABLES
 // ================================================================================
 
-const acceptableUseButton = document.getElementById("acceptable-use-button")
-const accessControlButton = document.getElementById("access-control-button")
-const acceptableUsePolicyArea = document.getElementById("acceptable-use-policy-area")
-const accessControlPolicyArea = document.getElementById("access-control-policy-area")
-
 // ================================================================================
 // TOP HORIZONTAL POLICY LIST VARIABLES
 // ================================================================================
@@ -19,14 +14,6 @@ const policyAreasContainer = document.getElementById("policy-areas-container")
 //All Buttons Array
 const policyAreasContainerButtons = policyAreasContainer.children
 
-//Individual Buttons
-const governanceRiskAndComplianceButton = document.getElementById("governance-risk-and-compliance-button")
-const informationAssetManagementButton = document.getElementById("information-asset-management-button")
-const informationTechnologyButton = document.getElementById("information-technology-button")
-const peopleButton = document.getElementById("people-button")
-const physicalAndEnvironmentalButton = document.getElementById("physical-and-environmental-button")
-const resilienceButton = document.getElementById("resilience-button")
-
 // ================================================================================
 // LEFT CONTAINER VARIABLES
 // ================================================================================
@@ -36,24 +23,12 @@ const buttonContainer = document.getElementById("button-container")
 const buttonContainerArray = buttonContainer.children
 const totalPolicyButtons = document.getElementsByClassName("policy-button")
 
-//Individual policy area button containers
-const governanceRiskAndComplianceContainer = document.getElementById("governance-risk-and-compliance-button-container")
-const informationAssetManagementContainer = document.getElementById("information-asset-management-button-container")
-const informationTechnologyContainer = document.getElementById("information-technology-button-container")
-const peopleContainer = document.getElementById("people-button-container")
-const physicalAndEnvironmentalContainer = document.getElementById("physical-and-environmental-button-container")
-const resilienceContainer = document.getElementById("resilience-button-container")
-
 // ================================================================================
 // RIGHT TEXT CONTAINER VARIABLES
 // ================================================================================
 
+// Main text container variable
 const totalPolicyText = document.getElementsByClassName("policy-text")
-
-
-
-
-
 
 // ================================================================================
 // TOP HORIZONTAL POLICY LIST EVENT LISTENERS
