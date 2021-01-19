@@ -44,8 +44,7 @@ policyAreasContainer.addEventListener("click", (e) => {
 
 buttonContainer.addEventListener("click", (e) => {
   if(e.target.classList.contains("btn")) {
-    leftButton()
-    e.target.classList.add("active")
+    leftButton(e)
   }
   policyButtonClick(e)
 })
@@ -56,11 +55,12 @@ buttonContainer.addEventListener("click", (e) => {
 
 // FUNCTION FOR ADDING OR REMOVING ACTIVE CLASS ON LEFT VERTICAL BUTTONS
 
-function leftButton() {
+function leftButton(e) {
   for (let i = 0; i < buttonContainerArray.length; i++) {
     for (let j = 0; j < buttonContainerArray[i].children.length; j++){
         buttonContainerArray[i].children[j].classList.remove("active")
     }}
+      e.target.classList.add("active")
   }
 
 // FUNCTION FOR TOP HORIZONTAL CATEOGRY AREA BUTTON CLICK
