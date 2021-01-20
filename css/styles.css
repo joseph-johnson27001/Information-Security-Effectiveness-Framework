@@ -8,7 +8,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 h1 {
   font-size: 250%;
   font-weight: 400;
@@ -55,7 +54,6 @@ nav .navigation-container {
   width: 90%;
 }
 
-
 .navbar-dark .navbar-nav .nav-link {
   font-size: 1.2rem;
   font-weight: 300;
@@ -68,7 +66,6 @@ nav .navigation-container {
 .navbar .navbar-nav .nav-item {
   margin-left: 10px;
 }
-
 
 @media (max-width: 767px) {
 
@@ -110,18 +107,4 @@ nav .navigation-container {
 .dropdown-menu a:hover {
   color: #E05E08;
   background-color: inherit;
-}
-
-
-/* ===============================================================================
-HEADINGS STYLES
-=============================================================================== */
-
-.heading-container {
-  margin-bottom: 2rem;
-}
-
-.heading-container-border {
-  width: 20%;
-  border-bottom: 1px solid #E5E5E5;
 }
