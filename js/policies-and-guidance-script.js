@@ -6,28 +6,27 @@
 // TOP HORIZONTAL POLICY LIST VARIABLES
 // ================================================================================
 
-//OVERALL CONTAINER
+// TOP OVERALL POLICY CONTAINER
 const policyAreasContainer = document.getElementById("policy-areas-container")
 
-// BUTTONS
-
-//All Buttons Array
+// ARRAY FOR TOP CONTAINER'S BUTTONS
 const policyAreasContainerButtons = policyAreasContainer.children
 
 // ================================================================================
 // LEFT CONTAINER VARIABLES
 // ================================================================================
 
-//Overall Left Button CONTAINER
 const buttonContainer = document.getElementById("button-container")
 const buttonContainerArray = buttonContainer.children
+
+// ALL INDIVIDUAL POLICY BUTTONS
 const totalPolicyButtons = document.getElementsByClassName("policy-button")
 
 // ================================================================================
 // RIGHT TEXT CONTAINER VARIABLES
 // ================================================================================
 
-// Main text container variable
+// MAIN TEXT CONTENT CONTAINER
 const totalPolicyText = document.getElementsByClassName("policy-text")
 
 // ================================================================================

@@ -79,9 +79,9 @@ nav .navigation-container {
    .navbar .navbar-nav .nav-item {
      padding: 0px 20px;
    }
-     .dropdown-item {
-       margin-left: -20px;
-     }
+   .dropdown-item {
+     margin-left: -20px;
+   }
  }
 
 .navbar .navbar-nav .nav-item .active {
