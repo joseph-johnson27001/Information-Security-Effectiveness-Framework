@@ -34,7 +34,9 @@ const totalPolicyText = document.getElementsByClassName("policy-text")
 // ================================================================================
 
 policyAreasContainer.addEventListener("click", (e) => {
-  topButtonClick(e)
+  if(e.target.classList.contains("btn")) {
+    topButtonClick(e)
+  }
 })
 
 // ================================================================================
