@@ -28,12 +28,10 @@ MAIN
   margin-top: 1rem;
   color: #E5E5E5;
   border-color: #E5E5E5;
-  transition: .4s;
-  backface-visibility: hidden;
-  -webkit-font-smoothing: subpixel-antialiased;
+  transition: .2s;
 }
 
 .btn:hover {
-  color: #E5E5E5;
-  transform: scale(1.05);
+  color: orange;
+  border-color: orange;
 }

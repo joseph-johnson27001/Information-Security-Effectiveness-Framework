@@ -118,6 +118,7 @@ TEXT CONTAINER (RIGHT CONTAINER)
   text-decoration: none;
   color: #E05E08;
   border: 1px solid #E05E08;
+  transition: .2s;
 }
 
 .download-container {

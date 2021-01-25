@@ -10,14 +10,12 @@ h3 {
 
 .btn {
   margin-top: 1rem;
-  color: #E5E5E5;
-  border-color: #E5E5E5;
-  transition: .4s;
-  backface-visibility: hidden;
-  -webkit-font-smoothing: subpixel-antialiased;
+  color: white;
+  border-color: white;
+  transition: .2s;
 }
 
 .btn:hover {
-  color: #E5E5E5;
-  transform: scale(1.05);
+  color: orange;
+  border-color: orange;
 }
