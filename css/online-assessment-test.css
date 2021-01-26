@@ -1,15 +1,19 @@
 
-
+h5 {
+  font-style: italic;
+  font-weight: 100;
+}
 
 /* ================================================================================
 TABLE
 ================================================================================ */
 
-thead {
-  color: orange;
-}
-
 .table {
+  margin-top: 1.5rem;
   background-color: #171717;
   color: white;
+}
+
+thead {
+  color: orange;
 }
