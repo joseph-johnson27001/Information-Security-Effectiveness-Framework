@@ -16,6 +16,7 @@ TOP SELECTION BUTTONS
 .dropdown-button {
   border: 1px solid grey;
   color: white;
+  width: 100%;
 }
 
 .dropdown-button:focus,
@@ -23,6 +24,10 @@ TOP SELECTION BUTTONS
   color: #E05E08;
   border: 1px solid #E05E08;
   transition: 0s;
+}
+
+.dropdown-menu {
+  width: 100%;
 }
 
 
