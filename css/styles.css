@@ -69,7 +69,7 @@ nav .navigation-container {
 
 @media (max-width: 767px) {
 
-  .dropdown-item {
+  nav .dropdown-item {
     margin-left: -40px;
   }
 }
@@ -79,7 +79,7 @@ nav .navigation-container {
    .navbar .navbar-nav .nav-item {
      padding: 0px 20px;
    }
-   .dropdown-item {
+   nav .dropdown-item {
      margin-left: -20px;
    }
  }
@@ -94,17 +94,19 @@ nav .navigation-container {
   width: 5rem;
 }
 
-.dropdown-menu {
+/* NAVIGATION DROPDOWN MENU */
+
+nav .dropdown-menu {
   background-color: #0D0D0D;
   margin: 0px 25px;
   border-radius: 5px;
 }
 
-.dropdown-menu a {
+nav .dropdown-menu a {
   color: grey;
 }
 
-.dropdown-menu a:hover {
+nav .dropdown-menu a:hover {
   color: #E05E08;
   background-color: inherit;
 }
