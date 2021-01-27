@@ -13,7 +13,17 @@ TOP SELECTION BUTTONS
   margin-bottom: 1rem;
 }
 
+.dropdown-button {
+  border: 1px solid grey;
+  color: white;
+}
 
+.dropdown-button:focus,
+.dropdown-button:hover {
+  color: #E05E08;
+  border: 1px solid #E05E08;
+  transition: 0s;
+}
 
 
 /* ================================================================================
