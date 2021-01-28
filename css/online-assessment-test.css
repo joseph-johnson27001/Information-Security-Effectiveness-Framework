@@ -1,3 +1,6 @@
+h3 {
+  margin-top: 1rem;
+}
 
 h5 {
   font-style: italic;
@@ -14,9 +17,11 @@ TOP SELECTION BUTTONS
 }
 
 .dropdown-button {
+  font-family: 'Roboto Condensed', sans-serif;
   border: 1px solid grey;
   color: #E5E5E5;
   width: 100%;
+  font-weight: 100;
 }
 
 .dropdown-button:focus,
@@ -27,7 +32,8 @@ TOP SELECTION BUTTONS
 }
 
 .dropdown-menu {
-  width: 100%;
+  font-size: .9rem;
+  width: 95%;
   background-color: #0D0D0D;
 }
 
@@ -40,12 +46,12 @@ TOP SELECTION BUTTONS
   color: orange;
 }
 
-
 .complete-counter-container {
   text-align: right;
-  font-weight: 100;
+  font-weight: 400;
   font-style: italic;
-  font-size: 1rem;
+  font-size: .8rem;
+  color: orange;
 }
 
 /* ================================================================================
