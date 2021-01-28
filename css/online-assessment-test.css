@@ -15,7 +15,7 @@ TOP SELECTION BUTTONS
 
 .dropdown-button {
   border: 1px solid grey;
-  color: white;
+  color: #E5E5E5;
   width: 100%;
 }
 
@@ -28,6 +28,16 @@ TOP SELECTION BUTTONS
 
 .dropdown-menu {
   width: 100%;
+  background-color: #0D0D0D;
+}
+
+.dropdown-item {
+  color: #E5E5E5;
+}
+
+.dropdown-item:hover {
+  background-color: #0D0D0D;
+  color: orange;
 }
 
 
