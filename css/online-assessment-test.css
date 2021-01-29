@@ -20,6 +20,7 @@ TOP SELECTION BUTTONS
   font-family: 'Roboto Condensed', sans-serif;
   border: 1px solid grey;
   color: #E5E5E5;
+  background-color: #171717;
   width: 100%;
   font-weight: 100;
 }
@@ -33,8 +34,9 @@ TOP SELECTION BUTTONS
 
 .dropdown-menu {
   font-size: .9rem;
-  width: 95%;
-  background-color: #0D0D0D;
+  width: 94.5%;
+  background-color: #171717;
+  border: 1px solid grey;
 }
 
 .dropdown-item {
@@ -42,8 +44,8 @@ TOP SELECTION BUTTONS
 }
 
 .dropdown-item:hover {
-  background-color: #0D0D0D;
-  color: orange;
+  background-color: #171717;
+  color: #E05E08;
 }
 
 .complete-counter-container {
