@@ -32,7 +32,7 @@ TOP SELECTION BUTTONS
   transition: 0s;
 }
 
-.dropdown-menu {
+#selection-button-container .dropdown-menu {
   font-size: .9rem;
   width: 94.5%;
   background-color: #171717;
